@@ -1,13 +1,11 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
+import NFTCards from './components/NFTCard'
+
 
 export default function Home() {
   return (
     <div>
-      <smallCard/>
-      <NavBar/>
-      <Hero/>
+      <NFTCards/>
     </div>
   )
 }
